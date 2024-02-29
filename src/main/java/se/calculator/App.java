@@ -28,7 +28,7 @@ public class App
 
                 if (operation < 1 || operation > 5) {
                     System.out.println("**************************");
-                    System.out.println("<<<<< Invalid >>>>>");
+                    System.out.println("<<<< Invalid >>>>");
                 }
                 else if ( operation == 5) {
                     isNotExit = false;
