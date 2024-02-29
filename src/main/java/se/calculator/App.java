@@ -23,7 +23,7 @@ public class App
             //__operation
             System.out.print("The number of operation: ");
             int operation = scannerOperation.nextInt();
-            if (operation < 1 || operation > 6) {
+            if (operation < 1 || operation > 5) {
                 System.out.println("**************************");
                 System.out.println("<<<<< Invalid >>>>>");
             }
