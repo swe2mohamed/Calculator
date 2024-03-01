@@ -18,13 +18,12 @@ public class App
             System.out.println("4- Division.");
             System.out.println("5- Exit.");
 
-            Scanner userFirstNum = new Scanner(System.in);
-            Scanner userSecondNum = new Scanner(System.in);
-            Scanner scannerOperation = new Scanner(System.in);
+            Scanner scanner = new Scanner(System.in);
+
             //__
             try {
             System.out.print("The number of operation: ");
-            int operation = scannerOperation.nextInt();
+            int operation = scanner.nextInt();
 
                 if (operation < 1 || operation > 5) {
                     System.out.println("**************************");
@@ -36,9 +35,9 @@ public class App
                 }
                 else{
                         System.out.print("Write the 1th number: ");
-                        long firstNum = userFirstNum.nextInt();
+                        long firstNum = scanner.nextInt();
                         System.out.print("Write the 2th number: ");
-                        long secondNum = userSecondNum.nextInt();
+                        long secondNum = scanner.nextInt();
                         //__
                         long addition = addition(firstNum, secondNum);
                         long subtraction = subtraction(firstNum, secondNum);
